@@ -4,7 +4,7 @@ const axios = require('axios')
 const app = express()
 
 // API Key Check
-const apiKey = process.env.HB_API_KEY
+const apiKey = 'sk_test_Xg1AWb339Qc-mQ0uOUCgeFi6EBrTf9nR9C1FtkBErDs'
 
 if (!apiKey || apiKey === "") {
     console.error("API Key is not set, did you set the HB_API_KEY environment variable to your API key?")
